@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		4E12EF2328F5A63800C8D5D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E12EF2228F5A63800C8D5D8 /* AppDelegate.swift */; };
 		4E12EF2528F5A63800C8D5D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E12EF2428F5A63800C8D5D8 /* SceneDelegate.swift */; };
-		4E12EF2728F5A63800C8D5D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E12EF2628F5A63800C8D5D8 /* ViewController.swift */; };
+		4E12EF2728F5A63800C8D5D8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E12EF2628F5A63800C8D5D8 /* HomeViewController.swift */; };
 		4E12EF2A28F5A63800C8D5D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E12EF2828F5A63800C8D5D8 /* Main.storyboard */; };
 		4E12EF2C28F5A63A00C8D5D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E12EF2B28F5A63A00C8D5D8 /* Assets.xcassets */; };
 		4E12EF2F28F5A63A00C8D5D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E12EF2D28F5A63A00C8D5D8 /* LaunchScreen.storyboard */; };
 		4E12EF3A28F5A63A00C8D5D8 /* MontVoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E12EF3928F5A63A00C8D5D8 /* MontVoxTests.swift */; };
 		4E12EF4428F5A63A00C8D5D8 /* MontVoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E12EF4328F5A63A00C8D5D8 /* MontVoxUITests.swift */; };
 		4E12EF4628F5A63A00C8D5D8 /* MontVoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E12EF4528F5A63A00C8D5D8 /* MontVoxUITestsLaunchTests.swift */; };
+		4E12EF5328F5ADDB00C8D5D8 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E12EF5228F5ADDB00C8D5D8 /* CustomCollectionViewCell.swift */; };
+		4E12EF5528F82AA900C8D5D8 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E12EF5428F82AA900C8D5D8 /* CustomView.swift */; };
+		4E12EF9928FEEE2800C8D5D8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E12EF9828FEEE2800C8D5D8 /* HomeView.swift */; };
+		4E12EF9B28FEF04900C8D5D8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E12EF9A28FEF04900C8D5D8 /* Utils.swift */; };
+		4E12EF9D29001EE400C8D5D8 /* PictogramsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E12EF9C29001EE400C8D5D8 /* PictogramsModel.swift */; };
+		4E12EFA2290025CB00C8D5D8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E12EFA1290025CB00C8D5D8 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,7 @@
 		4E12EF1F28F5A63800C8D5D8 /* MontVox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MontVox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E12EF2228F5A63800C8D5D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E12EF2428F5A63800C8D5D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4E12EF2628F5A63800C8D5D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E12EF2628F5A63800C8D5D8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4E12EF2928F5A63800C8D5D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E12EF2B28F5A63A00C8D5D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E12EF2E28F5A63A00C8D5D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		4E12EF3F28F5A63A00C8D5D8 /* MontVoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MontVoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E12EF4328F5A63A00C8D5D8 /* MontVoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontVoxUITests.swift; sourceTree = "<group>"; };
 		4E12EF4528F5A63A00C8D5D8 /* MontVoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontVoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E12EF5228F5ADDB00C8D5D8 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E12EF5428F82AA900C8D5D8 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		4E12EF9828FEEE2800C8D5D8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4E12EF9A28FEF04900C8D5D8 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = "../../../Downloads/MVCSandbox-2/MVCSandbox/Utils.swift"; sourceTree = "<group>"; };
+		4E12EF9C29001EE400C8D5D8 /* PictogramsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictogramsModel.swift; sourceTree = "<group>"; };
+		4E12EFA1290025CB00C8D5D8 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +111,14 @@
 		4E12EF2128F5A63800C8D5D8 /* MontVox */ = {
 			isa = PBXGroup;
 			children = (
+				4E12EFE3290165FA00C8D5D8 /* Scenes */,
+				4E12EFA0290025BE00C8D5D8 /* Services */,
+				4E12EF9A28FEF04900C8D5D8 /* Utils.swift */,
+				4E12EF9728FEEE0C00C8D5D8 /* Controller */,
+				4E12EF9628FEEE0800C8D5D8 /* Model */,
+				4E12EF9528FEEE0200C8D5D8 /* View */,
 				4E12EF2228F5A63800C8D5D8 /* AppDelegate.swift */,
 				4E12EF2428F5A63800C8D5D8 /* SceneDelegate.swift */,
-				4E12EF2628F5A63800C8D5D8 /* ViewController.swift */,
 				4E12EF2828F5A63800C8D5D8 /* Main.storyboard */,
 				4E12EF2B28F5A63A00C8D5D8 /* Assets.xcassets */,
 				4E12EF2D28F5A63A00C8D5D8 /* LaunchScreen.storyboard */,
@@ -127,6 +144,55 @@
 			path = MontVoxUITests;
 			sourceTree = "<group>";
 		};
+		4E12EF9528FEEE0200C8D5D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E12EF9828FEEE2800C8D5D8 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E12EF9628FEEE0800C8D5D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E12EF9C29001EE400C8D5D8 /* PictogramsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E12EF9728FEEE0C00C8D5D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E12EF2628F5A63800C8D5D8 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E12EFA0290025BE00C8D5D8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4E12EFA1290025CB00C8D5D8 /* API.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4E12EFE3290165FA00C8D5D8 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4E12EFE42901660900C8D5D8 /* ViewCell */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4E12EFE42901660900C8D5D8 /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4E12EF5228F5ADDB00C8D5D8 /* CustomCollectionViewCell.swift */,
+				4E12EF5428F82AA900C8D5D8 /* CustomView.swift */,
+			);
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +203,7 @@
 				4E12EF1B28F5A63800C8D5D8 /* Sources */,
 				4E12EF1C28F5A63800C8D5D8 /* Frameworks */,
 				4E12EF1D28F5A63800C8D5D8 /* Resources */,
+				4E12EF9428FEDD1800C8D5D8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -253,14 +320,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E12EF9428FEDD1800C8D5D8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4E12EF1B28F5A63800C8D5D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E12EF2728F5A63800C8D5D8 /* ViewController.swift in Sources */,
+				4E12EF5528F82AA900C8D5D8 /* CustomView.swift in Sources */,
+				4E12EF2728F5A63800C8D5D8 /* HomeViewController.swift in Sources */,
 				4E12EF2328F5A63800C8D5D8 /* AppDelegate.swift in Sources */,
+				4E12EF9D29001EE400C8D5D8 /* PictogramsModel.swift in Sources */,
+				4E12EF9B28FEF04900C8D5D8 /* Utils.swift in Sources */,
+				4E12EF9928FEEE2800C8D5D8 /* HomeView.swift in Sources */,
 				4E12EF2528F5A63800C8D5D8 /* SceneDelegate.swift in Sources */,
+				4E12EFA2290025CB00C8D5D8 /* API.swift in Sources */,
+				4E12EF5328F5ADDB00C8D5D8 /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
